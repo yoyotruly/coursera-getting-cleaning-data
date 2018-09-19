@@ -36,5 +36,5 @@ ave <- comb %>%
     summarise_at(5:70, mean)
 
 # export file
-write.table(ave, "ave_combined.txt", row.names = FALSE)
+write.table(ave, "average.txt", row.names = FALSE)
           
