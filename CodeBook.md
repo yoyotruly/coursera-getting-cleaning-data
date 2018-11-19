@@ -1,6 +1,4 @@
----
-title: Code Book
----
+# Code Book
 
 This code book summarises the variables in the average.txt file. There are 68 variables in total, including 1 label, 1 identifier, and 66 measurements.
 

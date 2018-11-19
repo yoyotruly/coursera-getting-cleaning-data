@@ -1,6 +1,4 @@
----
-title: "Coursera Getting and Cleaning Data - Final Project"
----
+# Coursera Getting and Cleaning Data - Final Project
 
 This document is to explain the R script (run_analysis.R) for the final project of Coursera's Getting and Cleaning Data course. The objective of this project is to collect, work with, and clean the [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) data set from the UCI Machine Learning Repository. The R script performs the following tasks:
 
