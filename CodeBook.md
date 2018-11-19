@@ -2,79 +2,82 @@
 title: Code Book
 ---
 
-This code book summarises the variables in the average.txt file, including two identifiers and 66 measurements.
+This code book summarises the variables in the average.txt file. There are 68 variables in total, including 1 label, 1 identifier, and 66 measurements.
+
+### Label
+
+`activity` : type of activities subject is performing when data is collected, including walking, walking upstairs, walking downstairs, sitting, standing and laying
 
 ### Identifiers
 
-activity
-subject
+`subject` : subject number, from 1 to 30
 
 ### Measurements
 
-tBodyAcc-mean()-X: total body accelerator
+`tBodyAcc-mean()-XYZ` : average of signals from body acceleration's 3 axes in a single time window
 
-tBodyAcc-mean()-Y: total body accelerator
-tBodyAcc-mean()-Z
-tBodyAcc-std()-X
-tBodyAcc-std()-Y
-tBodyAcc-std()-Z
-tGravityAcc-mean()-X
-tGravityAcc-mean()-Y
-tGravityAcc-mean()-Z
-tGravityAcc-std()-X
-tGravityAcc-std()-Y
-tGravityAcc-std()-Z
-tBodyAccJerk-mean()-X
-tBodyAccJerk-mean()-Y
-tBodyAccJerk-mean()-Z
-tBodyAccJerk-std()-X
-tBodyAccJerk-std()-Y
-tBodyAccJerk-std()-Z
-tBodyGyro-mean()-X
-tBodyGyro-mean()-Y
-tBodyGyro-mean()-Z
-tBodyGyro-std()-X
-tBodyGyro-std()-Y
-tBodyGyro-std()-Z
-tBodyGyroJerk-mean()-X
-tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-mean()-Z
-tBodyGyroJerk-std()-X
-tBodyGyroJerk-std()-Y
-tBodyGyroJerk-std()-Z
-tBodyAccMag-mean()
-tBodyAccMag-std()
-tGravityAccMag-mean()
-tGravityAccMag-std()
-tBodyAccJerkMag-mean()
-tBodyAccJerkMag-std()
-tBodyGyroMag-mean()
-tBodyGyroMag-std()
-tBodyGyroJerkMag-mean()
-tBodyGyroJerkMag-std()
-fBodyAcc-mean()-X
-fBodyAcc-mean()-Y
-fBodyAcc-mean()-Z
-fBodyAcc-std()-X
-fBodyAcc-std()-Y
-fBodyAcc-std()-Z
-fBodyAccJerk-mean()-X
-fBodyAccJerk-mean()-Y
-fBodyAccJerk-mean()-Z
-fBodyAccJerk-std()-X
-fBodyAccJerk-std()-Y
-fBodyAccJerk-std()-Z
-fBodyGyro-mean()-X
-fBodyGyro-mean()-Y
-fBodyGyro-mean()-Z
-fBodyGyro-std()-X
-fBodyGyro-std()-Y
-fBodyGyro-std()-Z
-fBodyAccMag-mean()
-fBodyAccMag-std()
-fBodyBodyAccJerkMag-mean()
-fBodyBodyAccJerkMag-std()
-fBodyBodyGyroMag-mean()
-fBodyBodyGyroMag-std()
-fBodyBodyGyroJerkMag-mean()
-fBodyBodyGyroJerkMag-std()
+`tBodyAcc-std()-XYZ` : standard deviation of signals from body acceleration's 3 axes
+
+`tGravityAcc-mean()-XYZ` : average of signals from gravity acceleration's 3 axes in a single time window
+
+`tGravityAcc-std()-XYZ` : standard deviation of signals from gravity acceleration's 3 axes
+
+`tBodyAccJerk-mean()-XYZ` : average of jerk signals on 3 axes in a single time window, derived from body linear acceleration
+
+`tBodyAccJerk-std()-XYZ` : standard deviation of jerk signals on 3 axes, derived from body linear acceleration
+
+`tBodyGyro-mean()-XYZ`: average of signals from body gyroscope's 3 axes in a single time window
+
+`tBodyGyro-std()-XYZ` : standard deviation of signals from body gyroscope's 3 axes
+
+`tBodyGyroJerk-mean()-XYZ` : average of jerk signals on 3 axes in a single time window, derived from angular velocity
+
+`tBodyGyroJerk-std()-XYZ` : standard deviation of jerk signals on 3 axes, derived from angular velocity
+
+`tBodyAccMag-mean()` : average of magnitude from body acceleration signals
+
+`tBodyAccMag-std()` : standard deviation of magnitutde from body acceleration signals
+
+`tGravityAccMag-mean()` : average of magnitude from gravity acceleration signals
+
+`tGravityAccMag-std()` : standard deviation of magnitutde from body acceleration signals
+
+`tBodyAccJerkMag-mean()` : average of jerk signals of magnitutde from body acceleration
+
+`tBodyAccJerkMag-std()` : standard deviation of jerk signals of magnitutde from body acceleration
+
+`tBodyGyroMag-mean()` : average of magnitude from body gyroscope signals
+
+`tBodyGyroMag-std()` : standard deviation of magnitude from body gyroscope signals
+
+`tBodyGyroJerkMag-mean()` : average of jerk signals of magnitutde from body gyroscope
+
+`tBodyGyroJerkMag-std()` : standard deviation of jerk signals of magnitutde from body gyroscope
+
+`fBodyAcc-mean()-XYZ` : average of Fast Fourier Transformed (FFTed) signals from body acceleration's 3 axes
+
+`fBodyAcc-std()-XYZ` : standard deviation of FFTed signals from body acceleration's 3 axes
+
+`fBodyAccJerk-mean()-XYZ` : average of FFTed jerk signals from body acceleration's 3 axes
+
+`fBodyAccJerk-std()-XYZ` : standard deviation of FFTed jerk signals from body acceleration's 3 axes
+
+`fBodyGyro-mean()-XYZ` : average of FFTed signals from body gyroscope's 3 axes
+
+`fBodyGyro-std()-XYZ` : standard deviation of FFTed signals from body gyroscope's 3 axes
+
+`fBodyAccMag-mean()` : average of FFTed magnitude from body gyroscope signals
+
+`fBodyAccMag-std()` : standard deviation of FFTed magnitude from body gyroscope signals
+
+`fBodyBodyAccJerkMag-mean()` : average of FFTed jerk signals of magnitutde from body acceleration
+
+`fBodyBodyAccJerkMag-std()` : standard deviation of FFTed jerk signals of magnitutde from body acceleration
+
+`fBodyBodyGyroMag-mean()` : average of FFTed jerk signals of magnitutde from body gyroscope
+
+`fBodyBodyGyroMag-std()` : standard deviation of FFTed jerk signals of magnitutde from body gyroscope
+
+`fBodyBodyGyroJerkMag-mean()` : average of FFTed jerk signals of magnitutde from body gyroscope
+
+`fBodyBodyGyroJerkMag-std()` : standard deviation of FFTed jerk signals of magnitutde from body gyroscope
